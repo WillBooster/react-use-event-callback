@@ -1,0 +1,10 @@
+{
+  "name": "react-use-event-callback",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/WillBooster/react-use-event-callback.git",
+  "author": "WillBooster Inc.",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "react": "^16.13.1"
+  }
+}
