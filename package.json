@@ -1,10 +1,14 @@
 {
   "name": "react-use-event-callback",
   "version": "1.0.0",
+  "private": false,
   "repository": "ssh://git@github.com/WillBooster/react-use-event-callback.git",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettier",
     "lint": "eslint \"./{packages/*/,}{src,__tests__}/**/*.{js,jsx,ts,tsx}\"",
@@ -14,6 +18,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
+    "@types/react": "16.9.34",
     "@typescript-eslint/eslint-plugin": "2.26.0",
     "@typescript-eslint/parser": "2.26.0",
     "@willbooster/eslint-config-ts": "3.0.0",
@@ -27,6 +32,7 @@
     "lint-staged": "10.1.1",
     "prettier": "2.0.2",
     "react": "16.13.1",
-    "sort-package-json": "1.40.0"
+    "sort-package-json": "1.40.0",
+    "typescript": "3.8.3"
   }
 }
