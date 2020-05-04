@@ -34,5 +34,8 @@
     "react": "16.13.1",
     "sort-package-json": "1.40.0",
     "typescript": "3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8"
   }
 }
