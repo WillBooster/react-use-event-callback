@@ -12,7 +12,8 @@
     "sourceMap": true,
     "importHelpers": false,
     "outDir": "dist",
-    "typeRoots": ["./node_modules/@types", "./@types"]
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "declaration": true
   },
   "include": ["src/**/*", "__tests__/**/*", "packages/*/src/**/*", "packages/*/__tests__/**/*"]
 }
