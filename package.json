@@ -27,6 +27,6 @@
     "lint-staged": "14.0.1",
     "prettier": "3.6.2",
     "react": "16.14.0",
-    "sort-package-json": "1.57.0"
+    "sort-package-json": "3.4.0"
   }
 }
